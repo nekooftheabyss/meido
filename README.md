@@ -9,7 +9,7 @@ $ git clone https://github.com/retraigo/meido
 
 * Open the repo in your command line.
 ```sh
-$ cd tokino
+$ cd meido
 ```
 
 * Install dependencies.
@@ -20,7 +20,7 @@ $ pnpm i # PNPM
 
 * Open `config.js` in a text editor.
 * Replace `<insert server name>` with the server name or anything you want the bot to welcome the user to.
-* Replace `<insert channel id>` with the ID of the channel you wanna work with.
+* Replace `<insert channel id>` with the ID of the channel you wanna welcome members in.
 * Replace `<insert token here>` with the token of your Discord bot.
 * Replace `This is some cool message, {{member}}!` with some welcome message. The user will be pinged wherever you place `{{member}}`.
 * Start the bot.
